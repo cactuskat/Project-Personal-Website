@@ -27,7 +27,7 @@ function Navbar() {
           <a className="hidden sm:inline-block font-bold text-[#002d5a] hover:text-[#ff9100] transition-colors" href="mailto:karinacastillo.dev@gmail.com" target="_blank" rel="noreferrer">
             Email
           </a>
-          <a className="bg-[#0062ff] hover:bg-blue-700 text-white font-bold px-5 py-2 transition-colors" href="https://drive.google.com/file/d/1FEJiTQr1Sg2IoaUE4OtUiUoWb1pxYW34/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a className="bg-[#0062ff] hover:bg-blue-700 text-white font-bold px-5 py-2 transition-colors" href="https://drive.google.com/file/d/1K7dty9dtQDzj7kwKbTqa7s1aSPjDPdCv/view?usp=sharing" target="_blank" rel="noreferrer">
             Resume
           </a>
         </div>

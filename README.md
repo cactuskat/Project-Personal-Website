@@ -1,4 +1,4 @@
-# [Your Name] | Professional Full-Stack Portfolio Website
+# Karina | Professional Full-Stack Portfolio Website
 
 [![Portfolio Live](https://img.shields.io/badge/Live%20Project-Web-FF9100?style=for-the-badge)](https://www.karinacastillo.com)
 [![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Tailwind%20%7C%20Flask-002d5a?style=for-the-badge)](#technical-implementation)

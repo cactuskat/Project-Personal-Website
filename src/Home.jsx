@@ -25,7 +25,7 @@ function Home() {
               </p>
               
               <div className="mt-8">
-                <a href="/resume.pdf" target="_blank" rel="noreferrer" className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
+                <a href="https://drive.google.com/file/d/1FEJiTQr1Sg2IoaUE4OtUiUoWb1pxYW34/view?usp=sharing" target="_blank" rel="noreferrer" className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
                   Download Resume ↓
                 </a>
               </div>
@@ -43,9 +43,11 @@ function Home() {
                 </p>
                 
                 <div className="mt-10">
-                  <a href="/projects" className="block text-center bg-[#ff9100] text-[#002d5a] font-black uppercase tracking-wider text-xl py-5 px-6 shadow-[8px_8px_0px_#0062ff] hover:bg-[#ffab40] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
-                    Explore the Project →
-                  </a>
+                  <a href="https://pitpointstop.onrender.com" target="_blank" rel="noopener noreferrer" 
+                className="block text-center bg-[#ff9100] text-[#002d5a] font-black uppercase tracking-wider text-xl py-5 px-6 shadow-[8px_8px_0px_#0062ff] hover:bg-[#ffab40] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
+                  >
+                Explore the Project →
+              </a>
                 </div>
               </div>
             </div>
@@ -65,10 +67,11 @@ function Home() {
                 About Me
               </h2>
               <p className="text-xl text-slate-600 font-light mb-4">
-                Hi, I'm Karina! I love bridging the gap between elegant user interfaces and complex database architecture. My passion for computer science stems from a love of continuous learning and problem-solving.
-              </p>
+                Hi, I'm Karina! (she/her) I got into CS because I fell in love with the puzzle-solving of code with the beauty of how simple a solution can be. 
+                I'm drawn to the full stack — I care just as much about whether the button feels right as whether the query behind it is efficient. For me, good software isn't just functional, it's thoughtful.
+                Right now I'm looking for opportunities where I can keep growing, ship things I'm proud of, and work with people who take their craft seriously. </p>
               <p className="text-slate-600">
-                When I'm not coding, you can find me exploring new design trends, debugging logic puzzles, or preparing to launch my post-graduation career.
+                When I'm not coding, you can find me exploring new recipes, learning how to play chess, or getting ready for whatever comes after graduation.
               </p>
             </div>
 
@@ -85,12 +88,12 @@ function Home() {
                   ))}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {['Flask', 'Jinja2', 'Prolog'].map(skill => (
+                  {['Flask', 'Jinja2', 'Prolog','React'].map(skill => (
                     <span key={skill} className="bg-[#f0f8ff] text-[#002d5a] border-2 border-[#0062ff] font-bold uppercase text-sm px-4 py-1.5">{skill}</span>
                   ))}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {['Agile', 'MySQL', 'Git & GitHub', 'REST APIs'].map(skill => (
+                  {['Agile/Azure DevOps', 'MySQL', 'Git & GitHub', 'REST APIs'].map(skill => (
                     <span key={skill} className="bg-[#f0f8ff] text-[#002d5a] border-2 border-[#0062ff] font-bold uppercase text-sm px-4 py-1.5">{skill}</span>
                   ))}
                 </div>

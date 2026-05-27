@@ -228,7 +228,7 @@ function ProjectsPage() {
               </p>
 
               <div className="flex flex-col gap-3">
-                <a href="#repo" className="text-center bg-[#ff9100] text-[#002d5a] font-black uppercase text-base py-4 shadow-[4px_4px_0px_#0062ff] hover:bg-[#ffab40] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all">
+                <a href="https://github.com/cactuskat/ConnectX" className="text-center bg-[#ff9100] text-[#002d5a] font-black uppercase text-base py-4 shadow-[4px_4px_0px_#0062ff] hover:bg-[#ffab40] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all">
                   View Repository →
                 </a>
               </div>

@@ -21,10 +21,10 @@ function Navbar() {
             Featured Projects
           </Link>
           
-          <a className="hidden sm:inline-block font-bold text-[#002d5a] hover:text-[#ff9100] transition-colors" href="https://github.com" target="_blank" rel="noreferrer">
+          <a className="hidden sm:inline-block font-bold text-[#002d5a] hover:text-[#ff9100] transition-colors" href="https://github.com/cactuskat" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a className="hidden sm:inline-block font-bold text-[#002d5a] hover:text-[#ff9100] transition-colors" href="https://github.com" target="_blank" rel="noreferrer">
+          <a className="hidden sm:inline-block font-bold text-[#002d5a] hover:text-[#ff9100] transition-colors" href="mailto:karinacastillo.dev@gmail.com" target="_blank" rel="noreferrer">
             Email
           </a>
           <a className="bg-[#0062ff] hover:bg-blue-700 text-white font-bold px-5 py-2 transition-colors" href="/resume.pdf" target="_blank" rel="noreferrer">

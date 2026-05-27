@@ -25,7 +25,7 @@ function Home() {
               </p>
               
               <div className="mt-8">
-                <a href="#resume" download className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
+                <a href="/resume.pdf" target="_blank" rel="noreferrer" className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
                   Download Resume ↓
                 </a>
               </div>

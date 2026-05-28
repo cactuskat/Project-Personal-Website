@@ -1,5 +1,6 @@
 // src/Footer.jsx
 import React from 'react';
+import { RESUME_URL, GITHUB_URL, LINKEDIN_URL,EMAIL_URL } from './config';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       {/* Social Icons Container */}
       <div className="flex justify-center space-x-6 text-3xl">
         <a 
-          href="https://github.com/cactuskat" 
+          href={GITHUB_URL} 
           target="_blank" 
           rel="noreferrer" 
           className="text-[#002d5a] hover:text-[#ff9100] hover:scale-110 transform transition-all duration-200" 
@@ -16,7 +17,7 @@ function Footer() {
           <i className="bi bi-github"></i>
         </a>
         <a 
-          href="www.linkedin.com/in/karina-castillo-45487b186" 
+          href={LINKEDIN_URL}
           target="_blank" 
           rel="noreferrer" 
           className="text-[#002d5a] hover:text-[#ff9100] hover:scale-110 transform transition-all duration-200" 
@@ -25,7 +26,7 @@ function Footer() {
           <i className="bi bi-linkedin"></i>
         </a>
         <a 
-          href="mailto:karinacastillo.dev@gmail.com" 
+          href={EMAIL_URL} 
           className="text-[#002d5a] hover:text-[#ff9100] hover:scale-110 transform transition-all duration-200" 
           title="Email Me"
         >

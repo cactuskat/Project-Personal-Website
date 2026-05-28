@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { RESUME_URL, GITHUB_URL, LINKEDIN_URL,EMAIL_URL } from './config';
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
               </p>
               
               <div className="mt-8">
-                <a href="https://drive.google.com/file/d/1K7dty9dtQDzj7kwKbTqa7s1aSPjDPdCv/view?usp=sharing" target="_blank" rel="noreferrer" className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
+                <a href={RESUME_URL} target="_blank" rel="noreferrer" className="inline-block border-3 border-[#ff9100] text-[#ff9100] font-black uppercase tracking-wider text-lg px-8 py-3 hover:bg-[#ff9100] hover:text-[#002d5a] transition-all hover:-translate-y-0.5">
                   Download Resume ↓
                 </a>
               </div>

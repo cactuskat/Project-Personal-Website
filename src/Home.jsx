@@ -22,7 +22,7 @@ function Home() {
                 Full-Stack Developer | Logical & Creative
               </span>
               <p className="text-xl text-slate-600 max-w-lg mx-auto lg:mx-0">
-                Graduating CS student who loves solving the puzzle between robust backend logic and intuitive frontend design.
+                Full-Stack Software Engineer with an unstoppable curiosity
               </p>
               
               <div className="mt-8">
